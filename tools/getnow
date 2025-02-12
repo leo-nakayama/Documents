@@ -1,1 +1,39 @@
-/home/leo/bin/getnow
+#!/usr/bin/bash
+set +x
+
+show_usage() {
+    echo "Usage: $0 [OPTION]"
+    echo "Options:"
+    echo "  --date       Output date in YYYY-MM-DD format"
+    echo "  --time       Output time in HH:MM:SS format"
+    echo "  --datetime       Output date and time in YYYY-MM-DD_HH:MM:SS format"
+    echo "  --timestamp  Output date and time with nanoseconds in YYYY-MM-DD_HH:MM:SS.nanoseconds format"
+    echo "  --help       Show this help message"
+}
+
+if [ $# -eq 0 ]; then
+    echo "Error: No option provided. Use --help for usage information."
+    exit 1
+fi
+
+case "$1" in
+    --date)
+        date "+%Y-%m-%d"
+        ;;
+    --time)
+        date "+%H:%M:%S"
+        ;;
+    --datetime)
+        date "+%Y-%m-%d_%H:%M:%S"
+	;;
+    --timestamp)
+        date "+%Y-%m-%d_%H:%M:%S.%N"
+        ;;
+    --help)
+        show_usage
+        ;;
+    *)
+        echo "Error: Invalid option '$1'. Use --help for usage information."
+        exit 1
+        ;;
+esac
