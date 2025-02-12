@@ -161,15 +161,13 @@ Here's a markdown-formatted cheat sheet for common usage of `grep`, `awk`, and `
 Remember to replace `filename` with the actual file you're working with. These examples demonstrate basic usage; for more complex operations, consult the man pages (`man grep`, `man awk`, `man sed`) or online documentation.
 
 # Bonus
-## What does the following command mean (skip the find command explanation)
+What does the following command mean (skip the find command explanation)
 
 '''
 find ~/Documents/ -name "*txt" -exec grep -Hi penguin {} ;
 '''
 
-Certainly! I'll explain the parts of the command you specifically asked about, focusing on the `grep` command and the `{} \;` portion.
-
-Here's the breakdown of the relevant parts:
+For `grep` command and the `{} \;` portion.
 
 ```
 -exec grep -Hi penguin {} \;
