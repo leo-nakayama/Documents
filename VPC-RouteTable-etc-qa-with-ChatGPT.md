@@ -449,7 +449,7 @@ Yes, exactly\! Here's a **simple breakdown** of how internet access works in AWS
 
 **How?** The **Route Table** must include:  
 yaml  
-CopyEdit  
+ 
 `Destination: 0.0.0.0/0 → Target: IGW (Internet Gateway)`
 
 *   
@@ -468,7 +468,7 @@ But if resources in a private subnet need **outbound access** (e.g., to download
 
 **How?** The **Route Table** for the private subnet must include:  
 java  
-CopyEdit  
+ 
 `Destination: 0.0.0.0/0 → Target: NAT Gateway (in a public subnet)`
 
 *   
