@@ -12,15 +12,13 @@ Model: Your instruction makes perfect sense\! Using AWS IAM as an example, you'v
 
 ### The user provided the model (Amazon Nova Lite) a list of Category names followed by a list service names.
 
-'''
-
+```data structuer of the prompt
 Category - CATEGORY_NAME
 SERVICE_NAME: 1
 SERVICE_NAME: 2
 .
 .
-
-'''
+```
 
 ### Category - Analytics
 
