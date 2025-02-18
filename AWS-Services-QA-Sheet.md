@@ -8,7 +8,7 @@ User: I will ask questions about AWS services. I want to learn in a way like how
  The above are the question data structure using AWS IAM just as an example.  
  Now, I will give the name(s) of AWS service(s). Can you provide the response following the questioning data structure above?  Does my instruction make sense to you?
 
-Model: Your instruction makes perfect sense! Using AWS IAM as an example, you've structured the questions in a way that explores the definition, components, capabilities, and relationships of the service, much like understanding a class in Object-Oriented Programming (OOP). 
+Model: Your instruction makes perfect sense\! Using AWS IAM as an example, you've structured the questions in a way that explores the definition, components, capabilities, and relationships of the service, much like understanding a class in Object-Oriented Programming (OOP). 
 
 ### The user provided the model (Amazon Nova Lite) a list of Category names followed by a list service names.
 ''' givn data structure of the prompt
