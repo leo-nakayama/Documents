@@ -10,7 +10,7 @@ User: I will ask questions about AWS services. I want to learn in a way like how
 
 Model: Your instruction makes perfect sense\! Using AWS IAM as an example, you've structured the questions in a way that explores the definition, components, capabilities, and relationships of the service, much like understanding a class in Object-Oriented Programming (OOP). 
 
-### The user provided the model (Amazon Nova Lite) a list of Category of services and service names. The model responded as follows:
+\#\#\# The user provided the model (Amazon Nova Lite) a list of Category of services and service names. The model responded as follows:
 
 \#\#\# Category \- Analytics
 
