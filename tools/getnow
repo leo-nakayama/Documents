@@ -8,6 +8,7 @@ show_usage() {
     echo "  --time       Output time in HH:MM:SS format"
     echo "  --datetime       Output date and time in YYYY-MM-DD_HH:MM:SS format"
     echo "  --timestamp  Output date and time with nanoseconds in YYYY-MM-DD_HH:MM:SS.nanoseconds format"
+    echo "  --pelican    Output date and time in the plican MarkDown date format"
     echo "  --help       Show this help message"
 }
 
@@ -29,6 +30,9 @@ case "$1" in
     --timestamp)
         date "+%Y-%m-%d_%H:%M:%S.%N"
         ;;
+    --pelican)
+	date "+%Y-%m-%d %H:%M"
+	;;
     --help)
         show_usage
         ;;
