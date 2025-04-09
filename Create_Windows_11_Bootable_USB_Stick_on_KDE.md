@@ -10,7 +10,7 @@
 
    1. Locate the downloaded Windows .iso file by the file manager.  
    2. Right click on the .iso file, select “mount” on the appeared menu.  
-   3. A device named “CCCOMA\_\*\*” will be mounted on the left pane of the file manager.
+   3. Make sure a device named “CCCOMA\_\*\*” is newly mounted on the left pane of the file manager.
 
 3. ### **Copy the mounted files in the USB stick**
 
