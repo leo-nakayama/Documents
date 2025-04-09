@@ -1,4 +1,4 @@
-# **How to create Windows 11 bootable USB stick on Ubuntu/Fedora KDE**
+# **How to create a Windows 11 bootable USB stick on Ubuntu/Fedora KDE**
 
 1. ### **Format the USB stick**
 
