@@ -34,6 +34,3 @@ flowchart LR
 * **AI** → like “inductive math” trained from data rather than axioms.
 * **Python** → a practical tool that encodes math/logic as computation.
 * **Philosophy** → zooms out to ask what the rules *mean* and what their *purpose* is.
-
----
-
