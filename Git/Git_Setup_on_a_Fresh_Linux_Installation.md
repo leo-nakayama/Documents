@@ -76,7 +76,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Press **Enter** to accept defaults, or set a custom file path. Optionally add a passphrase.
 
-### 5.2 Start SSH Agent and Add Key
+### 5.2 Start SSH Agent and Add Key (thiis step may proceed automatically by the prior procedure 5.1)
 
 ```bash
 eval "$(ssh-agent -s)"
