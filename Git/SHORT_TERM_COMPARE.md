@@ -1,8 +1,3 @@
-Perfect 👍 — here’s a **`docs/SHORT_TERM_COMPARE.md`** version you can drop directly into your repository (for example, inside `/docs/` alongside your `Deployment_Guide.md`).
-
-It’s identical in logic to the previous cheat sheet, but formatted and structured more like internal project documentation — with **clear section numbering, code-block hierarchy, and navigation headings** (so it renders nicely on GitHub Pages or VS Code preview).
-
----
 # Short-Term Compare & Safe Rollback Guide
 
 **Purpose:**  
